@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example HTML page</title>
+</head>
+<body>
+  <h1>An example of some html</h1>
+  <h2>Headings and paragraphs (this is an h2 heading)</h2>
+
+  <p>In HTML headings are marked with using heading tags such h1. There are six levels of heading supported. The biggest is h1 which is used for page titles. The smallest is h6. On most pages you probably won't see h4-6 used.</p>
+
+  <p>Paragraphs are separated using p tags. This automatically separates them into blocks, leaving a gap in between.</p>
+
+  <h2>Blank lines and void tags</h2>
+
+  <p>It is also possible to insert extra blank lines manually using the br tag. The br tag is a special type of tag (called a 'void tag'); you don't need a closing br tag, just un opening one.</p>
+
+  <br>
+
+  <h2>Comments</h2>
+
+  <p>You can write comments in your html code, which won't be displayed in the browser.</p>
 
