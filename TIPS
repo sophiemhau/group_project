@@ -1,0 +1,28 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+
+
+img{
+        display: flex; /*flex=display setting; flexbile placing around the window?*/
+        margin: 0px;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 20px;
+        border-radius:130px;/*taking the box and curving the edges, the bigger the radius on the box, the more rounded the edges it will be */
+}
+
+
+<div>Icons made by <a href="https://www.flaticon.com/<?=_('authors').'/'?>freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
+<li id="about"> <a href="about_page.html">About</a></li>
+<li id="home"> <a href="index.html">Home</a></li>
+<li id="contact"><a href="contact_page.html">Contact</a></li>
+</ul>
+
+}
+
+home{text-align: center;
+
+}

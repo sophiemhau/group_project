@@ -1,0 +1,146 @@
+
+body{
+  background-color: #FDEDEC ;
+}
+
+ul{
+text-align: center;
+  color: white;
+  background: rgba(32, 190, 242, 0.7);
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#contactus{
+  text-decoration: underline;
+}
+
+img{
+  border-radius:50%;
+  margin-left: 50px;
+  float:left;
+ }
+
+ h1{
+   font-family: Nanum Pen Script;
+   color: rgb(169,173,170) ;
+   text-align: center;
+   font-size: 100px;
+ }
+
+ .scallop {
+  position:relative;
+  background: rgba(254, 127, 112, 1);
+  padding:30px 50px ;
+}
+
+.scallop::after {
+  position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background:
+  radial-gradient(circle at 50% 0%, #FE7F70 25%, #69ACCC 26%, #69ACCC 40%);
+  background-color: #FE7F70;
+  background-size:50px 100px;
+  height:50px;
+  background-repeat: repeat-x;
+}
+
+p{
+  font-family: Nanum Pen Script;
+  font-size: 28px;
+  color: rgb(169,173,170);
+}
+
+#content{
+  Margin: 70px 150px;
+  min-width: 500px;
+}
+
+p{
+  font-family:'Nanum Pen Script', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Nanum Pen Script;
+    font-size: 28px;
+    color:rgb(169,173,170);
+}
+
+input[type=submit] {
+    background-color: #FAD7A0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a4d6e0;
+}
+
+.container {
+    margin:auto;
+    border-radius: 5px;
+    background-color:;
+    padding: 20px;
+    font-family:'Nanum Pen Script', cursive;
+    color: rgb(169,173,170);
+    font-size: 28px;
+}
+
+.contactpics{
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 100px;
+}
+
+.sandwichpics{
+  height: 150px;
+  width: 150px;
+}
+
+#sandwich1{
+  float: left;
+}
+
+#sandwich2{
+  float: right;
+}
+
+#media{
+  margin: 0 auto;
+    width:300px;
+}

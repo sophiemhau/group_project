@@ -1,0 +1,320 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  padding: 20px;
+  background: #f1f1f1;
+  background-image: url("homepage_background.jpg");
+  background-size: cover;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.scallop {
+    position: relative;
+    background: rgba(252, 225, 182, 0.6);
+          }
+
+          .scallop::after {
+                                position: fixed;
+                                top: 70px;
+                                width: 100%;
+                                content: " ";
+                                background: radial-gradient(circle at 50% 0%, rgba(252, 225, 182, 1) 25%, rgba(255, 255, 255, 0) 26%, rgba(241, 182, 252, 0) 40%);
+                                background-color: #ffffff00;
+                                background-size: 50px 100px;
+                                height: 28px;
+                                background-repeat: repeat-x;
+                              }
+
+
+                              li#about{
+                                list-style: none;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                }
+
+                              li#home{
+                                list-style: none;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                }
+
+                              li#contact{
+                                list-style: none;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                }
+
+ul#banner{
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background: rgba(195, 148, 148, 0);
+    font-family: "Amatic SC", "arial";
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+  width: 100%;
+
+    }  ul#banner{
+      text-align: center;
+      background: rgba(252, 225, 182, 1);
+
+    }
+
+    .title{
+      font-size: 6em; /*em =measurement: 5 times the relative font size of the element*/
+      text-align: center;
+      padding-top: 0px;
+      font-family: Nanum Pen Script;
+      text-shadow: bold;
+    }
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%;
+}
+
+
+.wrapper {
+    text-align: center;
+  }
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(72, 171, 140, 0.5098039215686274);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Nanum Pen Script;
+  }
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgba(72, 171, 140, 0.5098039215686274);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 25px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  align-content: center;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.w3-top{
+font-family: Nanum Pen Script;
+}
+/* <header> */
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color:  #b58d7f;
+
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:40%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27, 32, 48, 0) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url("homepage_background.jpg") top center no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  animation: grow 60s  linear 10ms infinite;
+  transition:all 0.2s ease-in-out;
+  z-index:-2
+}
+.header a{
+  color:rgba(27,32,48,1);
+}
+/* .menu{
+  display:block;
+  width:30px;
+  height:30px;
+  border:2px solid black;
+  border-radius:3px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  text-decoration:none
+}
+.menu:after{
+  content:"";
+  display:block;
+  width:20px;
+  height:3px;
+  background:black;
+  position:absolute;
+  margin:0 auto;
+  top:5px;
+  left:0;
+  right:0;
+  box-shadow:0 8px, 0 16px
+}
+.logo{
+  border:2px solid black;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-block;
+  margin:20px;
+  padding:5px 10px;
+  font-weight:600;
+  font-size:1.2em;
+  box-sizing:border-box
+} */
+/* .sides*/
+/*.info{
+  flex: 0 0 auto;
+  width:50%
+}
+.info{
+  width:100%;
+  padding:15% 10% 0 10%;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+
+/* Header/Blog Title */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Add a card effect for articles */
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.button {
+  background-color: #48afa594;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+.card {
+   margin: auto;
+   background-color: white;
+   padding: 30px;
+   margin-top: 75px;
+   width:70%;
+   border-radius: 50px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffd1dc;
+  margin-top: 20px;
+}
+
+.apppics{
+  border-radius: 25%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+h2 {
+
+}
