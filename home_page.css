@@ -59,7 +59,7 @@ h1{
 
         font-size: 6em; /*em =measurement: 5 times the relative font size of the element*/
         text-align: center;
-        text-decoration: overline;
+        text-decoration:overline;
         font-family: Nanum Pen Script;
         text-shadow: bold
 }
@@ -232,8 +232,8 @@ ol{
 /*Quotes*/
 
 div.quote1{
-        background-color: rgba(102, 212, 197, 0.45);
-        color: rgba(255,255,255,0.7);  /* this formats div elements that have been 'classed' -in the HTML file*...refer to Chapter 9 of slides: ID and Class selectors*/
+        background-color: rgba(102, 212, 197, 0);
+        color: rgba(58, 122, 146, 0.65);  /* this formats div elements that have been 'classed' -in the HTML file*...refer to Chapter 9 of slides: ID and Class selectors*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -242,7 +242,7 @@ div.quote1{
 
 div.quote2{
         background-color: rgba(210, 134, 134, 0.35);
-        color: rgba(255,255,255,0.7);  /* this formats div elements that have been 'classed' -in the HTML file*...refer to Chapter 9 of slides: ID and Class selectors*/
+        color: rgb(187, 157, 161);  /* this formats div elements that have been 'classed' -in the HTML file*...refer to Chapter 9 of slides: ID and Class selectors*/
         display: flex;
         justify-content: center;
         align-items: center;

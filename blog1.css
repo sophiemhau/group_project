@@ -2,13 +2,32 @@ body {
   font-family: "Times New Roman", Georgia, Serif;
   padding: 20px;
   background: #f1f1f1;
-  background-image: url("homepage_background.jpg");
-  background-size: cover;
 }
-h1, h2, h3, h4, h5 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
+
+.heading{
+font-family: "Times New Roman",Georgia, Serif;
 }
+
+.title{
+  font-size: 6em; /*em =measurement: 5 times the relative font size of the element*/
+  text-align: center;
+  text-decoration: overline;
+  font-family: Nanum Pen Script;
+  text-shadow: bold
+}
+
+body    {
+         color:rgb(181, 141, 127);  /* Red Green Blue (specific colours -can find online; google colour picker to specficy colors)*/
+                               /* alternatively: colour: #3ab890; */
+        font-family: Nanum Pen Script; /* font1,font2,font3...backfonts incase the user doesn't have a particular font you want*/
+         margin: 0px;
+         padding-top: 55px;
+         background-image: url("homepage_background.jpg");
+         background-size: cover;
+        }
+
+
+
 
 .scallop {
     position: relative;
@@ -17,7 +36,7 @@ h1, h2, h3, h4, h5 {
 
           .scallop::after {
                                 position: fixed;
-                                top: 70px;
+                                top: 60px;
                                 width: 100%;
                                 content: " ";
                                 background: radial-gradient(circle at 50% 0%, rgba(252, 225, 182, 1) 25%, rgba(255, 255, 255, 0) 26%, rgba(241, 182, 252, 0) 40%);
@@ -28,23 +47,7 @@ h1, h2, h3, h4, h5 {
                               }
 
 
-                              li#about{
-                                list-style: none;
-                                font-weight: bold;
-                                font-size: 1.5em;
-                                }
 
-                              li#home{
-                                list-style: none;
-                                font-weight: bold;
-                                font-size: 1.5em;
-                                }
-
-                              li#contact{
-                                list-style: none;
-                                font-weight: bold;
-                                font-size: 1.5em;
-                                }
 
 ul#banner{
     list-style:none;
@@ -64,40 +67,39 @@ ul#banner{
 
     }
 
-    .title{
-      font-size: 6em; /*em =measurement: 5 times the relative font size of the element*/
-      text-align: center;
-      padding-top: 0px;
-      font-family: Nanum Pen Script;
-      text-shadow: bold;
-    }
 
-.center {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 40%;
+h1,h2 {
+        text-alight: center;
+
+      }
+
+h1{
+
+        font-size: 6em; /*em =measurement: 5 times the relative font size of the element*/
+        text-align: center;
+        text-decoration: overline;
+        font-family: Nanum Pen Script;
+        text-shadow: bold
 }
-
 
 .wrapper {
     text-align: center;
-  }
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: rgba(72, 171, 140, 0.5098039215686274);
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    font-family: Nanum Pen Script;
-  }
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: Nanum Pen Script;
+}
 
 .button span {
   cursor: pointer;
@@ -110,7 +112,7 @@ ul#banner{
 .button {
   display: inline-block;
   border-radius: 5px;
-  background-color: rgba(72, 171, 140, 0.5098039215686274);
+  background-color: rgba(214, 124, 153, 0.65);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -148,8 +150,88 @@ ul#banner{
   right: 0;
 }
 
-.w3-top{
-font-family: Nanum Pen Script;
+
+/* h2{
+        font-size: 3.5em; /*2.5 times whatever size you're setting it*/
+        text-align: center;
+        text-decoration: underline;
+        font-family: Nanum Pen Script;
+        padding-top: 40px;
+}
+
+
+
+p{
+        width: 50%;
+        margin:10vh, 10vw;
+        margin-left: auto;
+        margin-right: 215px;
+        font-size: x-large;
+} */
+
+
+home{text-align: center;}
+
+a     {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        }
+
+        ol#banner{
+            list-style:none;
+            margin-bottom: 10%;
+            font-size: 1em;
+            display: flex; /*a way to get elements into the correct places*/
+            justify-content: space-evenly;/*how the browser distributes space and content: making sure the page spreads out evenly*/
+          }
+
+          li a {
+            display: inline-block;
+            font-size: xx-large;
+            font-family: Nanum Pen Script;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration: none;
+            position:relative;
+          }
+
+
+  li a:hover {text-decoration: underline;
+    background-color: rgba(178, 204, 178, 0.63);
+  }
+
+
+li#about{
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  }
+
+li#home{
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  }
+
+li#contact{
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  }
+
+
+
+ol{
+        list-style:none;
+        padding: 0;
+        margin-bottom: 10%;
+        font-size: 1em;
+        display: flex; /*a way to get elements into the correct places*/
+        justify-content: space-evenly;/*how the browser distributes space and content: making sure the page spreads out evenly*/
+}
+/* .w3-top{
+font-family: "Times New Roman",Georgia, Serif;
 }
 /* <header> */
 .header{
@@ -164,8 +246,7 @@ font-family: Nanum Pen Script;
   min-height:400px;
   max-height:550px;
   min-width:300px;
-  color:  #b58d7f;
-
+  color:#eee;
 }
 .header:after{
   content:"";
@@ -175,7 +256,7 @@ font-family: Nanum Pen Script;
   bottom:0;
   left:0;
   z-index:-1;
- background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27, 32, 48, 0) 100%);
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
 }
 .header:before{
   content:"";
@@ -187,7 +268,7 @@ font-family: Nanum Pen Script;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url("homepage_background.jpg") top center no-repeat;
+  background:#1B2030 url(img/bg_6.jpg) top center no-repeat;
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -196,7 +277,7 @@ font-family: Nanum Pen Script;
 }
 .header a{
   color:rgba(27,32,48,1);
-}
+} */
 /* .menu{
   display:block;
   width:30px;
@@ -233,7 +314,7 @@ font-family: Nanum Pen Script;
   box-sizing:border-box
 } */
 /* .sides*/
-/*.info{
+.info{
   flex: 0 0 auto;
   width:50%
 }
@@ -242,7 +323,7 @@ font-family: Nanum Pen Script;
   padding:15% 10% 0 10%;
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
-}*/
+}
 
 * {
   box-sizing: border-box;
@@ -254,7 +335,18 @@ font-family: Nanum Pen Script;
 
 
 /* Create two unequal columns that floats next to each other */
-/* Add a card effect for articles */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
 
 /* Fake image */
 .fakeimg {
@@ -263,7 +355,7 @@ font-family: Nanum Pen Script;
   padding: 20px;
 }
 .button {
-  background-color: #48afa594;
+  background-color: black;
   border: none;
   color: white;
   padding: 15px 25px;
@@ -276,14 +368,14 @@ font-family: Nanum Pen Script;
   background-color: grey;
 }
 
+
+/* Add a card effect for articles */
 .card {
-   margin: auto;
    background-color: white;
-   padding: 30px;
-   margin-top: 75px;
-   width:70%;
-   border-radius: 50px;
+   padding: 20px;
+   margin-top: 20px;
 }
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -295,16 +387,8 @@ font-family: Nanum Pen Script;
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ffd1dc;
+  background: #ddd;
   margin-top: 20px;
-}
-
-.apppics{
-  border-radius: 25%;
-  height: 100px;
-  width: 100px;
-  margin-bottom: 100px;
-  margin-left: 50px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -313,8 +397,4 @@ font-family: Nanum Pen Script;
     width: 100%;
     padding: 0;
   }
-}
-
-h2 {
-
 }
